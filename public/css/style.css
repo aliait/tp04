@@ -1,0 +1,98 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: gray;
+}
+header ul{
+    display: flex;
+    position: relative;
+    gap: 10px;
+    margin: 0;
+    margin-top: 45px;
+    margin-left: 80%;
+}
+header ul li{
+    list-style: none;
+}
+header,aside,footer{
+    position: fixed;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+header h2{
+    text-align: center;
+    height: 2.4rem;
+    background-color: rgb(112, 189, 189);
+    margin-top: 0;
+    align-items: center;
+    width: 100%;
+    position: absolute ;
+
+}
+header img{
+    height: 50%;
+    margin-top: 12px;
+    margin-left: 15px;
+    position: relative;
+}
+
+header,footer{
+    width: 100%;
+    background-color: aquamarine;
+    height: 10%;
+}
+section{
+    width: 75%;
+    height: 80%;
+    position: absolute;
+    float: left;
+    margin-top: 80px;
+    margin-right: 40px;
+
+    
+}
+section article{
+    
+    position: relative;
+    background-color: white;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    margin-left: 55px;
+    margin-right: 40px;
+    padding: 1rem;
+
+}
+footer{
+    bottom: 0;
+}
+aside{
+    width: 25%;
+    height: 75%;
+    position: absolute;
+    float: left;
+    right: 0;
+    margin-top: 80px;
+    align-items: center;
+    text-align: center;
+    background: white;
+    border-radius: 6px;
+    margin-right: 25px ;
+
+}
+.titre{
+    text-align: center ;
+    padding: 20px;
+    background-color:  rgb(112, 189, 189);
+    border-radius: 10px;
+}
+.abstract{
+    background-color:  rgb(112, 189, 189);
+    border-bottom-right-radius: 30px;
+    border-top-left-radius: 30px;
+    padding: 10px;
+    margin-right: 90%;
+    text-align: center;
+}
